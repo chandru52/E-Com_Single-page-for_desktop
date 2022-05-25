@@ -1,0 +1,88 @@
+footer {
+  width: 100%;
+  position: relative;
+  padding: 40px 8%;
+  padding-bottom: 80px;
+  background-color: #383838;
+  font-family: "M PLUS 1", sans-serif;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.ul-catogeries {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+.un-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.head {
+  color: #fff;
+  grid-column: span 2;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.links {
+  color: rgba(255, 255, 255, 0.75);
+}
+.links:hover {
+  color: #fff;
+}
+.company {
+  margin-top: 40px;
+}
+.company h3 {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.company p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 20px;
+  opacity: 0.7;
+}
+/* .company li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 40px;
+  color: #fff;
+  text-decoration: underline;
+} */
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.contacts-ul li {
+  margin-right: 20px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.icons i {
+  margin-right: 10px;
+  font-size: 1.4rem;
+  color: black;
+  cursor: pointer;
+  background: #fff;
+  padding: 7px;
+  border-radius: 50%;
+}
+.bot {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+footer .logo {
+  color: #fff;
+}
